@@ -22,17 +22,17 @@ with M1 chip. After cloning this repo to M1 Mac, run these commands in terminal:
 `brew install qemu`
 `brew install x86_64-elf-gcc`
 
-Create a .bash_profile that contains additional variables for running xv6.
-`cd ~/`
-`touch .bash_profile`
-`open -e .bash_profile`
+Create a .bash_profile that contains additional variables for running xv6. <br>
+`cd ~/` <br>
+`touch .bash_profile` <br>
+`open -e .bash_profile` 
 
-Add these commands to your .bash_profile file:
-`export TOOLPREFIX=x86_64-elf- `
+Add these commands to your .bash_profile file: <br>
+`export TOOLPREFIX=x86_64-elf- ` <br>
 `export QEMU=qemu-system-x86_64`
 
-Finally, run the file:
+Finally, run the file: <br>
 `source .bash_profile`
 
-After cmpleting this, you can go into the cloned repo and start the xv6 with 
+After cmpleting this, you can go into the cloned repo and start the xv6 with <br>
 `make qemu`

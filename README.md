@@ -1,13 +1,13 @@
 ## Homework 1 for Uni
 The purpose of this homework was to practice understanding of the <br>
 kernel/console.c and kernel/kbd.c files. The task was to show a custom <br>
-table for choosing the color of the ourput text on the console.
+table for choosing the color of the output text on the console.
 
-Table appears and dissappears with the click ofvALT+C (for Mac users: Option+C). <br>
+Table appears and dissappears with the click of ALT+C (for Mac users: Option+C). <br>
 While the table is showing, the input to the console is disabled. <br>
 Only moving through the table is allowed:
 1. 'w' - go up
-2. 's' - go down
+2. 's' - go down <br>
 The final choice is the one that is selected when the table dissappears.
 
 The options in the table are:
@@ -18,8 +18,8 @@ The options in the table are:
 
 ## Important - Makefile is for M1 Macs
 Makefile given in this repo is the one one configured so the xv6 works on Macs <br> 
-with M1 chip. After cloning this repo to M1 Mac, run these commands in terminal:
-`brew install qemu`
+with M1 chip. After cloning this repo to M1 Mac, run these commands in terminal: <br>
+`brew install qemu` <br>
 `brew install x86_64-elf-gcc`
 
 Create a .bash_profile that contains additional variables for running xv6. <br>
